@@ -1,8 +1,10 @@
-package com.gdcp.zgd.newclient;
+package com.gdcp.zgd.newclient.activity;
 
-public class MainActivity extends BaseActivity {
+/**
+ * Created by yls on 2017/6/28.
+ */
 
-
+public class GuideActivity extends BaseActivity {
     @Override
     protected void initData() {
 
@@ -20,6 +22,6 @@ public class MainActivity extends BaseActivity {
 
     @Override
     protected int getLayoutRes() {
-        return R.layout.activity_main;
+        return 0;
     }
 }

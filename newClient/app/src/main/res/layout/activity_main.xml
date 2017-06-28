@@ -6,7 +6,7 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.gdcp.zgd.newclient.MainActivity">
+    tools:context="com.gdcp.zgd.newclient.activity.MainActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -16,7 +16,10 @@
         <android.support.v7.widget.Toolbar
              android:id="@+id/toolBar"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+             android:layout_height="?attr/actionBarSize"
+             android:background="@color/colorPrimary"
+             app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+             android:theme="@style/ThemeOverlay.AppCompat.Dark"
             app:title="title"/>
 
         <android.support.v4.view.ViewPager

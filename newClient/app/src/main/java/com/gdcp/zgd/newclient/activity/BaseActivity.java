@@ -1,4 +1,4 @@
-package com.gdcp.zgd.newclient;
+package com.gdcp.zgd.newclient.activity;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
